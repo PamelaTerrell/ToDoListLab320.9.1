@@ -115,10 +115,10 @@ const TodoList = () => {
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
           placeholder="Enter new todo"
-        />
+        /><br></br><br></br>
         <button onClick={addTodo}>Add Todo</button>
       </div>
-
+      <br></br>
       <div>
         {state.todos.map((todo) => (
           <TodoItem key={todo.id} todo={todo} dispatch={dispatch} />
