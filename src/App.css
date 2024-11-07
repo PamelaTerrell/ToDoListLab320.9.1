@@ -8,6 +8,12 @@
 .todo-list {
 
   background-color: aquamarine;
+  padding: 30px;
+
+}
+
+input {
+
   padding: 20px;
 
 }
